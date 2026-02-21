@@ -1,8 +1,21 @@
 import { createRoot } from 'react-dom/client'
 
-const myElement = <h1>I Love JSX!</h1>;
+const myelement = (
+  <table>
+    <tr>
+      <th>Name</th>
+    </tr>
+    <tr>
+      <td>John</td>
+    </tr>
+    <tr>
+      <td>Elsa</td>
+    </tr>
+  </table>
+);
 
 createRoot(document.getElementById('root')).render(
-  myElement
-);
+  myelement
+)
+
 
